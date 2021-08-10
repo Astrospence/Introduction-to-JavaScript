@@ -60,11 +60,11 @@ Do the following:
    3. Multiply a and b and return the answer
 */
 
-function multiply(/*add your code here*/){
-  /*add your code here*/
+function multiply(a,b){
+  return a * b;
 }
 
-
+console.log(multiply(1,3));
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 2 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
 
@@ -116,13 +116,13 @@ function hungryDog(weight, age){
     return weight * 0.04;
   }else if(age >= 1 && weight >= 11 && weight <= 15){
     return weight * 0.03;
-  }else if(age >=1 && weight >= 15){
+  }else if(age >= 1 && weight > 15){
     return weight * 0.02;
   }else if(age < 1 && age >= 0.583){
     return weight * 0.04;
-  }else if(age <0.583 && age <= 0.333){
+  }else if(age < 0.583 && age >= 0.333){
     return weight * 0.05;
-  }else if(age <0.333){
+  }else if(age < 0.333){
     return weight * 0.1;
   }
 }
@@ -149,6 +149,8 @@ RULES OF THE GAME: Scissors beats Paper | Paper beats Rock | Rock beats Scissors
 
 HINT: Remember that the order in which we pass in our arguments matters when it comes to parameters
 */
+
+let computer=
 
 function game(user, computer){
   /*add your code here*/
