@@ -20,7 +20,11 @@ Do the following:
    HINT: no function required
 */
 
+let votingAge = 18;
 
+if(votingAge >= 18){
+  console.log('Task 1a', 'true');
+}
 
 /*
 Task 1b - Values
@@ -33,9 +37,14 @@ Do the following:
    HINT: no function required
 */
 
+var firstName = 'Spencer';
+let lastName = 'Wood';
 
+if (lastName === 'Wood'){
+  var firstName ='Astrospence';
+}
 
-
+console.log('Task 1b', firstName);
 
 /*
 Task 1c - Convert Strings to Numbers
@@ -48,7 +57,9 @@ Do the following:
    HINT: look up the Number method
 */
 
+let year = parseInt('1999');
 
+console.log('Task 1c', year);
 
 
 /*
@@ -64,7 +75,7 @@ function multiply(a,b){
   return a * b;
 }
 
-console.log(multiply(1,3));
+console.log('Task 1d', multiply(1,3));
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 2 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
 
@@ -127,7 +138,7 @@ function hungryDog(weight, age){
   }
 }
 
-console.log('task 3', hungryDog(45,4));
+console.log(hungryDog(45,4));
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 4 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
 
@@ -150,7 +161,7 @@ RULES OF THE GAME: Scissors beats Paper | Paper beats Rock | Rock beats Scissors
 HINT: Remember that the order in which we pass in our arguments matters when it comes to parameters
 */
 
-let computer=
+
 
 function game(user, computer){
   /*add your code here*/
@@ -199,8 +210,10 @@ Using the annoyingSong function below do the following:
     "{number} bottles of soda on the wall, {number} bottles of soda, take one down pass it around {number left over} bottles of soda on the wall"
 */
 
-function annoyingSong(/*add your code here*/){
-      /*add your code here*/
+function annoyingSong(number){
+      for(let i = number; i > 1; i--){
+        return ``
+      }
 }
 
 
